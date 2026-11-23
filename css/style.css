@@ -3,7 +3,21 @@
     height:auto;
 }
 
-img{
+img {
     width:200px;
     height:auto;
 }
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    text-align: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+
