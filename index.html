@@ -5,13 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Campus Help</title>
     <link rel="stylesheet" href="./css/style.css">
+    <!-- Import Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.bundle.min.js" integrity="sha384-WyOxWvTyr1QaMPfiPJSv76iReVthorl5uWlFtZPyK0IEB0hGzo9y5Bp9mYanr8Bu" crossorigin="anonymous"></script>
 </head>
 <body>
     <h1 class="text-center mt-4">Campus Help</h1>
 
     <div class="container mt-4">   
-        <img src="./img/campus.jpg" alt="An image of a buliding on campus">
+        <img class="rounded mx-auto d-block header-image" src="./img/campus.jpg" alt="An image of a buliding on campus">
         <p class="text-center">Welcome to campus help! How can we assist you today?</p>
+        <div class="row">
+            <section class="col-md-4 mb-2">
+                <h3 class="text-center">Campus Dining</h3>
+                <p class="text-center"> Cafeteria Menu</p>
+                <img class="rounded mx-auto d-block" src="./img/cafeteria.jpg" alt="An image of a cafeteria on campus">
+                <p class="text-center">
+                    <a href="caf.html" class="btn btn-success">Cafeteria</a>
+                </p>
+            </section>
+            <section class="col-md-4 mb-2">
+                <h3 class="text-center">Campus Map</h3>
+                <p class="text-center"> Map of campus with location of bulidings</p>
+                <img class="rounded mx-auto d-block" src="./img/map.jpg" alt="cartoon image of a map">
+                <p class="text-center">
+                    <a href="map.html" class="btn btn-success">Map</a>
+                </p>
+            </section>
+            <section class="col-md-4 mb-2">
+                <h3 class="text-center">Residential Life</h3>
+                <p class="text-center"> Information about campus housing and residential life</p>
+                <img class="rounded mx-auto d-block" src="./img/keys.jpg" alt="an image of keys">
+                <p class="text-center">
+                    <a href="reslife.html" class="btn btn-success">Res Life</a>
+                </p>
+            </section>
+        </div>
     </div>
 </body>
 </html>

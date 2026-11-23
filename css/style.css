@@ -1,5 +1,9 @@
-img {
+.header-image {
     width:800px;
     height:auto;
-    align-items:center;
+}
+
+img{
+    width:200px;
+    height:auto;
 }
